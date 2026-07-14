@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pheonix Home Services provides appliance repair, appliance hauling, and quality used appliance sales near Fort Myers, Florida." />
+  <title>Pheonix Home Services | Repair. Restore. Revive.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Pheonix Home Services home">
+        <img src="assets/logo.png" alt="Pheonix Home Services logo" />
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#inventory">Appliances</a>
+        <a href="#about">About</a>
+        <a href="#service-area">Service Area</a>
+        <a href="#contact" class="nav-cta">Request Service</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Fort Myers and nearby communities</span>
+          <h1>Repair. Restore. Revive.</h1>
+          <p>Professional appliance repair, dependable used appliances, and convenient appliance hauling throughout Southwest Florida.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Request Service</a>
+            <a class="btn btn-secondary" href="#inventory">View Appliances</a>
+          </div>
+          <div class="hero-trust">
+            <span>Professional service</span>
+            <span>Quality-tested appliances</span>
+            <span>Local and dependable</span>
+          </div>
+        </div>
+        <div class="hero-logo-card">
+          <img src="assets/logo.png" alt="Pheonix Home Services full logo" />
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div><strong>3</strong><span>Core Services</span></div>
+        <div><strong>40 min</strong><span>Approximate Service Radius</span></div>
+        <div><strong>1 Goal</strong><span>Keep Good Appliances Working</span></div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">What we do</span>
+          <h2>Complete appliance services</h2>
+          <p>From diagnosis to hauling, we help keep useful appliances out of the landfill and working in local homes.</p>
+        </div>
+        <div class="cards three">
+          <article class="service-card">
+            <div class="icon">🔧</div>
+            <h3>Appliance Repair</h3>
+            <p>Diagnostic and repair service for common household appliances. We focus on practical repairs and clear communication.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon">♻️</div>
+            <h3>Used Appliance Sales</h3>
+            <p>Clean, tested used appliances that are ready for a new home. Our goal is reliable value without unnecessary waste.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon">🚚</div>
+            <h3>Appliance Hauling</h3>
+            <p>Convenient pickup and removal of unwanted appliances. Reusable units may be restored instead of discarded.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="inventory" class="section dark-section">
+      <div class="container">
+        <div class="section-heading light">
+          <span class="eyebrow">Recent work and inventory</span>
+          <h2>Appliances given a second life</h2>
+          <p>Examples of appliances we inspect, repair, clean, restore, and prepare for use.</p>
+        </div>
+        <div class="gallery">
+          <figure><img src="assets/fridge.jpg" alt="White side-by-side refrigerator"><figcaption>Refrigerators</figcaption></figure>
+          <figure><img src="assets/washer-whirlpool.jpg" alt="White Whirlpool top-load washer"><figcaption>Washers</figcaption></figure>
+          <figure><img src="assets/washer-repair.jpg" alt="Top-load washer during repair"><figcaption>Repairs and restoration</figcaption></figure>
+          <figure><img src="assets/washer-ge.jpg" alt="White GE top-load washer"><figcaption>Tested used appliances</figcaption></figure>
+        </div>
+        <div class="inventory-note">
+          <p>Inventory changes often. Contact us for current availability, pricing, and pickup or delivery details.</p>
+          <a class="btn btn-primary" href="#contact">Ask About Inventory</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="brands" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Brands shown in our current work</span>
+          <h2>Appliance brands we service</h2>
+          <p>Brand coverage may vary by appliance type, model, parts availability, and condition.</p>
+        </div>
+        <div class="brand-grid">
+          <img src="assets/frigidaire.svg" alt="Frigidaire">
+          <img src="assets/whirlpool.svg" alt="Whirlpool">
+          <img src="assets/ge.svg" alt="GE">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section split-section">
+      <div class="container split-grid">
+        <div>
+          <span class="eyebrow">About Pheonix Home Services</span>
+          <h2>Honest work. Useful appliances. Less waste.</h2>
+          <p>At Pheonix Home Services, we believe a good appliance should not be thrown away just because it needs attention. We repair appliances, restore used units, sell dependable replacements, and haul away unwanted equipment throughout the Fort Myers area.</p>
+          <p>Our goal is simple: provide professional service, help customers get more value from their appliances, and keep reusable equipment out of the waste stream whenever possible.</p>
+        </div>
+        <div class="value-card">
+          <h3>What customers can expect</h3>
+          <ul>
+            <li>Clear communication</li>
+            <li>Professional appearance and service</li>
+            <li>Practical repair recommendations</li>
+            <li>Quality-focused used appliance options</li>
+            <li>Respect for your home and time</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="service-area" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Service area</span>
+          <h2>Serving Fort Myers and nearby communities</h2>
+          <p>Our normal service area is approximately 40 minutes from Fort Myers, depending on traffic and scheduling.</p>
+        </div>
+        <div class="map-layout">
+          <div id="map" aria-label="Map of service locations"></div>
+          <div class="locations-card">
+            <h3>Common service locations</h3>
+            <div class="location-list">
+              <span>Fort Myers</span>
+              <span>Cape Coral</span>
+              <span>North Fort Myers</span>
+              <span>Lehigh Acres</span>
+              <span>San Carlos Park</span>
+              <span>Estero</span>
+              <span>Iona</span>
+              <span>Alva</span>
+              <span>Fort Myers Beach</span>
+              <span>Bonita Springs</span>
+            </div>
+            <p class="small">Availability outside these areas may depend on distance, job type, and schedule.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow">Contact us</span>
+          <h2>Tell us what you need</h2>
+          <p>Send your name, address, and reason for contacting us. The form opens your email app with the details filled in.</p>
+          <div class="contact-details">
+            <a href="tel:+12397382650">239-738-2650</a>
+            <a href="mailto:Contact@SWFLPheonix.net">Contact@SWFLPheonix.net</a>
+            <span>Fort Myers, Florida area</span>
+          </div>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <label>
+            Name
+            <input type="text" id="name" required>
+          </label>
+          <label>
+            Phone
+            <input type="tel" id="phone">
+          </label>
+          <label>
+            Email
+            <input type="email" id="email">
+          </label>
+          <label>
+            Address
+            <input type="text" id="address" required>
+          </label>
+          <label>
+            Reason for contacting
+            <select id="reason" required>
+              <option value="">Choose one</option>
+              <option>Appliance repair</option>
+              <option>Appliance hauling</option>
+              <option>Buying an appliance</option>
+              <option>Selling or donating an appliance</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea id="message" rows="5" placeholder="Appliance type, brand, symptoms, or other details"></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send Request</button>
+          <p class="form-note">This version does not store customer data on a server.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <img src="assets/logo.png" alt="Pheonix Home Services">
+      <div>
+        <strong>Pheonix Home Services</strong>
+        <p>Repair. Restore. Revive.</p>
+      </div>
+      <div class="footer-links">
+        <a href="tel:+12397382650">239-738-2650</a>
+        <a href="mailto:Contact@SWFLPheonix.net">Contact@SWFLPheonix.net</a>
+      </div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> Pheonix Home Services. All rights reserved.</div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="script.js"></script>
+</body>
+</html>
